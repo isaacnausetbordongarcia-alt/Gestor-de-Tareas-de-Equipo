@@ -1,6 +1,11 @@
 import java.util.Scanner;
 
 public class Main {
+    /**
+     * @autor Isaac y Jonathan
+     * @version 1.1
+     * Este es la clase que administra las Tareas
+     */
 
     public static void main(String[] args) {
 

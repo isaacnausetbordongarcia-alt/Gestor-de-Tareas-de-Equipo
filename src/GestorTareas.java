@@ -13,10 +13,17 @@ public class GestorTareas {
             System.out.println("Nombre de la Tarea: " + p.getNombre() + ", estado " + p.isCompletada());
         }
     }
-
+    /**
+     * Este el el método definitivo para crear ArraysList.
+     */
     public GestorTareas() {
         tareas = new ArrayList<>();
     }
+
+    /**
+     * Este el el método definitivo para añadir a la ArrayList de Listas de Tareas, cuya misión principal es añadir el contenido de la lista de tareas.
+     */
+
 
     public void anadirTarea(String descripcion, boolean finalizado) {
         Tarea nuevaTarea = new Tarea(descripcion, finalizado);

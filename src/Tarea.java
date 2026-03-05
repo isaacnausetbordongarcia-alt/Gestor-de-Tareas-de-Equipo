@@ -1,4 +1,9 @@
 public class Tarea {
+    /**
+     * @param nombre El nombre de la tarea
+     * @param completada El estado de la tarea
+     */
+
     private String nombre;
     private boolean completada;
 
