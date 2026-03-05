@@ -12,6 +12,7 @@ public class Main {
         do {
             System.out.println("\n--- MENÚ ---");
             System.out.println("1. Añadir tarea");
+            System.out.println("2. Mostrar Tareas");
             System.out.println("0. Salir");
             System.out.print("Elige una opción: ");
 
@@ -22,8 +23,13 @@ public class Main {
                 case 1:
                     System.out.print("Introduce la descripción de la tarea: ");
                     String descripcion = scanner.nextLine();
+                    System.out.println("La tarea esta terminada?");
                     boolean finalizado = Boolean.parseBoolean(scanner.nextLine());
                     gestor.anadirTarea(descripcion, finalizado);
+                    break;
+                case 2:
+                    System.out.println("Este es el listado de tareas");
+                    gestor.mostrarTareas();
                     break;
 
                 case 0:
